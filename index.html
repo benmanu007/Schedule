@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Match Schedule Generator</title>
+    <title>MMA Match Schedule Generator</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Match Schedule Generator</h1>
+    <h1>MMA Match Schedule Generator</h1>
     <form id="scheduleForm">
-        <label for="numTeams">Enter number of teams:</label>
-        <input type="number" id="numTeams" placeholder="Number of Teams" min="2">
-        <button type="button" onclick="generateTeamInputs()">Set Teams</button>
-        <div id="teamInputs"></div>
-        <button type="button" onclick="generateSchedule()">Generate Schedule</button>
+        <label for="numAthletes">Enter number of fighters:</label>
+        <input type="number" id="numAthletes" placeholder="Number of Fighters" min="2">
+        <button type="button" onclick="generateAthleteInputs()">Set Fighters</button>
+        <div id="athleteInputs"></div>
+        <button type="button" onclick="generateSchedule()">Generate Matches</button>
     </form>
     <div id="scheduleOutput"></div>
     <script src="script.js"></script>
